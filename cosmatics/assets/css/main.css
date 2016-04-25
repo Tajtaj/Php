@@ -1,0 +1,146 @@
+body {
+    background: none repeat scroll 0 0 #CCCCCC;
+}
+.container{
+    border: 1px solid #808080;
+
+}
+.container .header{
+    color: #FFFFFF;
+    font-family: verdana;
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+
+    line-height: 50px;
+    width: 100%;
+    background: rgb(125,126,125); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+}
+.container .footer{
+    color: #FFFFFF;
+    font-family: verdana;
+    font-size: 10pt;
+    font-weight: bold;
+    line-height: 45px;
+    text-align: center;
+    background: rgb(125,126,125); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+}
+.container .content{
+    min-height: 600px;
+    background: #EEEEEE;
+    display: inline-block;
+    width: 100%;
+}
+
+/*...................................Admin Login form..........................................*/
+.login-form{
+    border: 1px solid #CCCCCC;
+    margin-top: 30px;
+    min-height:200px;
+}
+.admin-login-header{
+    background: #808080;
+    color: white;
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+/**************************************Breadcrumb******************************************/
+.breadcrumbs{
+    background:#9EADE7;
+    line-height: 40px;
+    padding-left: 10px;
+}
+.inactive{
+    color: #19576A;
+    padding: 0 5px 0 5px;
+
+}
+.active a{
+
+    text-decoration: underline;
+}
+.admin-logout {
+    float: right;
+    padding: 0 20px 0 0px;
+    color: #FFFFFF;
+}
+/***********************Dashborad page*************************************************/
+.dashboard{
+    padding-top: 100px;
+
+}
+.home_items_wrapper {
+
+    text-align: center;
+}
+.home_items a {
+    color: #808080;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+/**************************General****************************************************/
+/* General portion   */
+.general{
+    line-height: 40px;
+    border-bottom: 2px solid #CCCCCC;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.general .nonActiveGeneral{
+    background: none repeat scroll 0 0 #DDDDDD;
+    color: #000000;
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 5px;
+    padding: 10px;
+
+}
+.general .activeGeneral a {
+    background: #808080;
+    color: #FFFFFF;
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: bold;
+    margin-right: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+/*********************Add Page table************************************************/
+.add-form{
+    padding-top: 50px ;
+
+}
+.form-heading {
+    background: #808080;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+}
+.add-wrapper{
+    padding: 20px 10px;
+    border: 1px solid #CCCCCC;
+
+}
+
